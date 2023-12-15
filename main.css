@@ -5,6 +5,10 @@
     text-align: right;
 }
 
+#result2 {
+    display:none;
+}
+
 .lines {
     display: flex;
     justify-content: left;
