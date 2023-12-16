@@ -1,8 +1,17 @@
+.calc {
+    background-color: rgb(41, 102, 201);
+    display:inline-block;
+    padding:20px;
+    border-radius: 10px;
+}
+
 .result {
     background-color: black;
+    margin:0 auto;
     color: white;
-    width: 217px;
+    width: 200px;
     text-align: right;
+    padding-right: 5px;
 }
 
 #result2 {
@@ -16,31 +25,32 @@
     margin:0;
 }
 
-.button {
+.buttons {
+    margin-top: 10px;
+}
+
+.button-css {
     background-color: #b3b0b0;
     width: 50px;
     text-align: center;
     border-radius: 6px;
-    margin: 3px 0 0 0;
+    margin: 5px 0 0 0;
     border: 1px solid black;
-
+    box-shadow: 0 2px #0b272c;
 }
 
-.button_elem {
-    background-color: #b3b0b0;
-    width: 50px;
-    text-align: center;
-    border-radius: 6px;
-    margin: 3px 0 0 0;
-    border: 1px solid black;
+.button-css:active {
+    box-shadow:none;
+    position: relative;
+    top: 2px;
 }
+
+
 
 .button-long {
-    background-color: #b3b0b0;
     width: 105px;
-    text-align: center;
-    border-radius: 6px;
-    margin: 3px 0 0 0;
-    border: 1px solid black;
+}
 
+#AC {
+    background-color: rgb(242, 62, 62);
 }
