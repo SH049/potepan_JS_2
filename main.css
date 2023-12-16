@@ -1,5 +1,6 @@
 .calc {
     background-color: rgb(41, 102, 201);
+    border: 1px solid rgb(33, 9, 127);
     display:inline-block;
     padding:20px;
     border-radius: 10px;
@@ -53,4 +54,5 @@
 
 #AC {
     background-color: rgb(242, 62, 62);
+    color:rgb(242, 239, 239);
 }
